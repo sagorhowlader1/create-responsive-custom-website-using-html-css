@@ -11,6 +11,10 @@ html{
     scroll-behavior: smooth;
 }
 
+body{
+    background: #F3F4F4;
+}
+
 /* header section code start here */
 .header-container{
     background: #2b3c49;
@@ -107,10 +111,6 @@ li a:hover{
 
 /* services section code start here */
 
-.services-container{
-    background: #F3F4F4;
-}
-
 .services-title{
     padding-top: 65px;
     text-align: center;
@@ -129,21 +129,12 @@ li a:hover{
     color: #000;
 }
 
-/* .services-content{
-    display: grid;
-    grid-template-columns: repeat(3, 1fr);
-    grid-gap: 30px;
-    padding-bottom: 50px;
-    text-align: center
-} */
-
-
 .services-content{
-    margin-top: 50px;
+    /* margin-top: 50px; */
+    margin: 50px 300px;
     display: flex;
     justify-content: center;
     align-items: center;
-    border: 2px solid red;
 }
 
 
@@ -179,4 +170,115 @@ li a:hover{
     font-weight: 400;
     color: #000;
     margin: 10px 0;
+}
+
+
+/* portfolio section code start here */
+
+.portfolio-title{
+    padding-top: 25px;
+    text-align: center;
+}
+
+.portfolio-title h2{
+    margin: 15px 0;
+    font-size: 35px;
+    font-weight: 700;
+    color: #000;
+}
+
+.portfolio-title p{
+    font-size: 18px;
+    font-weight: 500;
+    color: #000;
+}
+
+.portfolio-content{
+    /* margin-top: 50px; */
+    margin: 50px 300px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.portfolio-items{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 10px;
+    padding-bottom: 5px;
+    text-align: center;
+}
+
+.portfolio-item img{
+    width: 100%;
+    height: 35vh;
+    border-radius: 15px;
+}
+
+.portfolio-item{
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    margin: 15px 10px;
+    background: #fff;
+    border-radius: 15px;
+}
+
+.portfolio-item h3{
+    font-size: 22px;
+    font-weight: 700;
+    color: #000;
+    margin: 10px 0;
+}
+
+.portfolio-item p{
+    font-size: 20px;
+    font-weight: 600;
+    color: #000;
+    margin: 10px 0;
+    text-align: center;
+}
+
+
+/* about section code start here */
+
+.about-title{
+    padding-top: 25px;
+    text-align: center;
+}
+
+.about-title h2{
+    margin: 15px 0;
+    font-size: 35px;
+    font-weight: 700;
+    color: #000;
+}
+
+.about-title p{
+    font-size: 18px;
+    font-weight: 500;
+    color: #000;
+}
+
+.about-content{
+    margin-top: 60px;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+}
+
+.about-item h3{
+    font-size: 22px;
+    font-weight: 700;
+    color: #000;
+    margin: 10px 0;
+}
+.about-item p{
+    font-size: 20px;
+    font-weight: 600;
+    color: #000;
+    margin: 10px 300px;
+    text-align: center;
 }
