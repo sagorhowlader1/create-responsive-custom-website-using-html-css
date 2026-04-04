@@ -1,22 +1,22 @@
 @import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap');
 
-*{
+* {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    font-family: 'Open Sans',sans-serif;
+    font-family: 'Open Sans', sans-serif;
 }
 
-html{
+html {
     scroll-behavior: smooth;
 }
 
-body{
+body {
     background: #F3F4F4;
 }
 
 /* header section code start here */
-.header-container{
+.header-container {
     background: #2b3c49;
     padding: 10px 0;
     position: fixed;
@@ -24,27 +24,27 @@ body{
 
 }
 
-.header-content{
+.header-content {
     display: flex;
     justify-content: space-between;
     align-items: center;
     margin: 20px 250px;
 }
 
-.header-logo a{
+.header-logo a {
     font-size: 30px;
     font-weight: 700;
     color: #fff;
     text-decoration: none;
 }
 
-nav ul{
+nav ul {
     display: flex;
     justify-content: center;
     list-style: none;
 }
 
-li a{
+li a {
     font-size: 20px;
     font-weight: 600;
     text-decoration: none;
@@ -52,14 +52,14 @@ li a{
     margin: 20px 30px;
 }
 
-li a:hover{
+li a:hover {
     color: #7AAACE;
     transition: all .3s;
 }
 
 /* home section code start here */
 
-.home-container{
+.home-container {
     width: 100%;
     height: 95vh;
     background-image: url('image/img8.jpg');
@@ -68,18 +68,18 @@ li a:hover{
     background-attachment: fixed;
 }
 
-.home-content{
+.home-content {
     text-align: center;
 }
 
-.home-title h1{
+.home-title h1 {
     padding-top: 300px;
     font-size: 65px;
     font-weight: bold;
     color: #fff;
 }
 
-.home-title p{
+.home-title p {
     font-size: 20px;
     font-weight: 500;
     color: #fff;
@@ -87,7 +87,7 @@ li a:hover{
 }
 
 
-.home-content a{
+.home-content a {
     font-size: 20px;
     font-weight: 400;
     padding: 15px 30px;
@@ -102,7 +102,7 @@ li a:hover{
     border: 2px solid #f5f3f3;
 }
 
-.home-content a:hover{
+.home-content a:hover {
     background: rgba(128, 128, 128, 0.199);
     color: #fff;
     border: 2px solid #fff;
@@ -111,25 +111,25 @@ li a:hover{
 
 /* services section code start here */
 
-.services-title{
+.services-title {
     padding-top: 65px;
     text-align: center;
 }
 
-.services-title h2{
+.services-title h2 {
     margin: 15px 0;
     font-size: 35px;
     font-weight: 700;
     color: #000;
 }
 
-.services-title p{
+.services-title p {
     font-size: 18px;
     font-weight: 500;
     color: #000;
 }
 
-.services-content{
+.services-content {
     /* margin-top: 50px; */
     margin: 50px 300px;
     display: flex;
@@ -138,7 +138,7 @@ li a:hover{
 }
 
 
-.services-items{
+.services-items {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     grid-gap: 10px;
@@ -146,26 +146,26 @@ li a:hover{
     text-align: center;
 }
 
-.services-item img{
+.services-item img {
     width: 120px;
     height: 120px;
     border-radius: 50%;
 }
 
-.services-item{
+.services-item {
     padding: 40px 50px;
     margin: 15px 20px;
     background: #fff;
 }
 
-.services-item h3{
+.services-item h3 {
     font-size: 22px;
     font-weight: 700;
     color: #000;
     margin: 10px 0;
 }
 
-.services-item p{
+.services-item p {
     font-size: 20px;
     font-weight: 400;
     color: #000;
@@ -175,25 +175,25 @@ li a:hover{
 
 /* portfolio section code start here */
 
-.portfolio-title{
+.portfolio-title {
     padding-top: 25px;
     text-align: center;
 }
 
-.portfolio-title h2{
+.portfolio-title h2 {
     margin: 15px 0;
     font-size: 35px;
     font-weight: 700;
     color: #000;
 }
 
-.portfolio-title p{
+.portfolio-title p {
     font-size: 18px;
     font-weight: 500;
     color: #000;
 }
 
-.portfolio-content{
+.portfolio-content {
     /* margin-top: 50px; */
     margin: 50px 300px;
     display: flex;
@@ -202,7 +202,7 @@ li a:hover{
 }
 
 
-.portfolio-items{
+.portfolio-items {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     grid-gap: 10px;
@@ -210,13 +210,13 @@ li a:hover{
     text-align: center;
 }
 
-.portfolio-item img{
+.portfolio-item img {
     width: 100%;
     height: 35vh;
     border-radius: 15px;
 }
 
-.portfolio-item{
+.portfolio-item {
     top: 0;
     left: 0;
     right: 0;
@@ -226,14 +226,14 @@ li a:hover{
     border-radius: 15px;
 }
 
-.portfolio-item h3{
+.portfolio-item h3 {
     font-size: 22px;
     font-weight: 700;
     color: #000;
     margin: 10px 0;
 }
 
-.portfolio-item p{
+.portfolio-item p {
     font-size: 20px;
     font-weight: 600;
     color: #000;
@@ -242,43 +242,195 @@ li a:hover{
 }
 
 
-/* about section code start here */
+/* team section code start here */
 
-.about-title{
+
+.team-container{
+    padding: 0 10px;
+    margin: 0 50px;
+}
+
+.team-title {
     padding-top: 25px;
     text-align: center;
 }
 
-.about-title h2{
+.team-title h2 {
     margin: 15px 0;
     font-size: 35px;
     font-weight: 700;
     color: #000;
 }
 
-.about-title p{
+.team-content {
+    margin: 40px 250px;
+    background: #929292;
+}
+
+.team-items {
+    display: flex;
+    justify-content: space-around;
+    text-align: center;
+}
+
+.team-item {
+    display: flex;
+    justify-content: space-around;
+    text-align: center;
+    /* padding: 5px 5px; */
+    margin: 10px 10px;
+    background: #fff;
+    border-radius: 35px;
+    border: 1.8px solid black;
+}
+
+.team-item img {
+    width: 20%;
+    height: 5vh;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    border: 1px solid red;
+    border-radius: 40vh;
+}
+
+.team-item p {
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 15px;
+    font-weight: 400;
+}
+
+
+/* about section code start here */
+
+.about-title {
+    padding-top: 25px;
+    text-align: center;
+}
+
+.about-title h2 {
+    margin: 15px 0;
+    font-size: 35px;
+    font-weight: 700;
+    color: #000;
+}
+
+.about-title p {
     font-size: 18px;
     font-weight: 500;
     color: #000;
+    margin-bottom: 50px;
 }
 
-.about-content{
-    margin-top: 60px;
+.about-content {
+    margin: 30px 250px;
+}
+
+.about-items {
     display: flex;
-    justify-content: center;
+    justify-content: space-around;
     text-align: center;
 }
 
-.about-item h3{
-    font-size: 22px;
-    font-weight: 700;
-    color: #000;
-    margin: 10px 0;
+.about-item {
+    padding: 20px 35px;
+    margin: 20px 15px;
+    background: #fff;
+    border-radius: 10px;
 }
-.about-item p{
+
+.about-item h3 {
     font-size: 20px;
     font-weight: 600;
-    color: #000;
-    margin: 10px 300px;
+    padding: 10px 0;
+}
+
+.about-item p {
+    font-size: 18px;
+    font-weight: 500;
+    padding: 10px 0;
+    align-items: justify;
+}
+
+
+/* footer section code start here */
+ .contact-title {
+    padding-top: 25px;
     text-align: center;
+}
+
+.contact-title h2 {
+    margin: 15px 0;
+    font-size: 35px;
+    font-weight: 700;
+    color: #000;
+}
+
+.contact-title p {
+    font-size: 18px;
+    font-weight: 500;
+    color: #000;
+    margin-bottom: 50px;
+}
+
+.contact-content{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin: 80px;
+}
+
+.contact-items i{
+    padding: 8px;
+    margin-right: 15px;
+    color: gray;
+}
+
+.footer-form{
+    margin-top: 50px;
+}
+
+.footer-form .footer-input input{
+    padding-right: 150px;
+    height: 35px;
+}
+.footer-form .footer-input textarea{
+    padding-right: 150px;
+}
+
+.fotter-btn{
+    font-size: 15px;
+    font-weight: 500;
+    margin: 10px 0;
+    padding: 15px 10px;
+    background: #000;
+    color: #fff;
+    border: none;
+    border-radius: 8px;
+}
+
+.fotter-btn:hover{
+    background: #929292;
+    transition: all .3s;
+}
+
+.footer-detail{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 30px 0;
+    background: #2b3c49;
+}
+
+.footer-detail p{
+    font-size: 15px;
+    font-weight: 600;
+    color: #fff;
 }
